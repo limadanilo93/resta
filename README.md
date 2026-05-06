@@ -1,4 +1,4 @@
-# Resta
+# resta
 
 A command-line tool that loads restaurant menus from a remote JSON source
 and displays them grouped by company.
@@ -6,15 +6,15 @@ and displays them grouped by company.
 ## Project structure
 
 ```
-Resta/
+resta/
 ├── app.py                    # Entry point
 └── Modelos/
     ├── Re.py                 # Restaurante class
     ├── eval.py               # Eval class
     └── Menus/
-        ├── it_me.py          # ItMe abstra
-        ├── plate.py          # Plate (fod items)
-        └── bev.py            # Bev (beveraes)
+        ├── it_me.py          # ItMe abstract base class
+        ├── plate.py          # Plate (food items)
+        └── bev.py            # Bev (beverages)
 ```
 
 ## Requirements
@@ -28,7 +28,7 @@ pip install requests
 
 ## Usage
 
-Run from the `Resta/` directory:
+Run from the `resta/` directory:
 
 ```bash
 python app.py
